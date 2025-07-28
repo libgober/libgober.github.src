@@ -1,0 +1,30 @@
+  [[main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+  
+  
+  [[main]]
+  name = "Research"
+  weight = 200
+  identifier = "research"
+  url = "/#research"
+
+  [[main]]
+  name = "Teaching"
+  weight = 300
+  identifier = "teaching"
+  url = "/#teaching"
+  
+  [[main]]
+  name = "Contact"
+  weight = 400
+  identifier = "contact"
+  url = "/contact/"
+  
+  [[main]]
+  name = "Collaborators"
+  weight = 500
+  identifier = "collabs"
+  url = "/collaborators/"

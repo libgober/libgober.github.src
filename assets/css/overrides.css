@@ -1,0 +1,11 @@
+ol.decreasing {
+  counter-reset: reversed(list-item);
+}
+
+#research {
+  scroll-margin-top: 80px; /* adjust to match your navbar height */
+}
+
+#teaching {
+  scroll-margin-top: 80px; /* adjust to match your navbar height */
+}

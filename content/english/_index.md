@@ -31,10 +31,7 @@ If you've got questions, feel free to reach out.
 
 ### Recent Working Papers {#research}
 
-    
-1. [Analysis and sample-size determination for 2<sup>K</sup> audit experiments with binary response and application to identification of effect of racial discrimination on access to justice.](https://arxiv.org/abs/2503.10591) (with Nicole Pashley and Tirthankar Dasgupta) R&R. *Journal of the Royal Statistical Society: Series A.*
-1. [Beyond Partisan Rhetoric: Institutional Constraints and Local COVID-19 Policies in Brazil](/brazialian_mayoral_covid_policy_rdd.pdf) (with Ivan Filipe de Almeida Lopes Fernandes, Gustavo Andrey Almeida Lopes Fernandes, and Michael Touchton). R&R, *Social Science & Medicine*. 
-1. [What Was the Persuasive Effect of Televised Campaign Advertising in the 2016 Presidential Election?](/WW2016D.pdf) (with Arne Holverscheid and Guillaume Pouliot). R&R, *Research and Politics*.
+
 1. [Group Talk](/Group_Talk.pdf) (with Chris Li).
 1. [Who Governs the Association](/Who-Governs-Association.pdf) (with Benjamin Egerod and Sebastian Thieme)
 1. [Backlash Against Repression: Evidence from Refugees Fleeing the Former Soviet Bloc](/webversion-bkl-hias.pdf) (with Valentin Bolotnyy and Mayya Komisarchik)
@@ -43,6 +40,9 @@ If you've got questions, feel free to reach out.
 
 ### Peer-Reviewed Publications
 
+1. [What Was the Persuasive Effect of Televised Campaign Advertising in the 2016 Presidential Election?](/WW2016D.pdf) (with Arne Holverscheid and Guillaume Pouliot). Forthcomign. *Research and Politics*.    
+1. [Analysis and sample-size determination for 2<sup>K</sup> audit experiments with binary response and application to identification of effect of racial discrimination on access to justice.](https://arxiv.org/abs/2503.10591) (with Nicole Pashley and Tirthankar Dasgupta). Forthcoming. *Journal of the Royal Statistical Society: Series A.*
+1. [Beyond Partisan Rhetoric: Institutional Constraints and Local COVID-19 Policies in Brazil](/Fernandes_2025_Brazil_COVID_Policies.pdf) (with Ivan Filipe de Almeida Lopes Fernandes, Gustavo Andrey Almeida Lopes Fernandes, and Michael Touchton), *Social Science & Medicine*. 
 1. [Linking Datasets on Organizations Using Half A Billion Open Collaborated Records](https://doi.org/10.1017/psrm.2024.55) (with Connor Jerzak). 2024. _Political Science Research & Methods_
 1. [Lawyers as Lobbyists: Regulatory Advocacy in American Finance](https://doi.org/10.1017/S1537592723002943) (with Daniel Carpenter). 2024. _Perspectives on Politics_.
 2. [A comprehensive dataset of U.S. federal laws (1789–2022)](https://rdcu.be/du4zI). 2024. _Scientific Data_.
@@ -114,19 +114,4 @@ If you've got questions, feel free to reach out.
 
 - Mass Media and Election Politics. Fall 2013. (Graduate Student Instructor; Primary Instructor: Nicholas Valentino).
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 

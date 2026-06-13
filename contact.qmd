@@ -1,0 +1,13 @@
+---
+title: "Contact"
+toc: false
+---
+
+The easiest way to reach me is by email at [brian.libgober@northwestern.edu](mailto:brian.libgober@northwestern.edu).
+
+You can also find current links here:
+
+- [Google Scholar](https://scholar.google.com/citations?user=gR0rYp8AAAAJ&inst=13592255891762573016)
+- [GitHub](https://github.com/libgober)
+- [Bluesky](https://bsky.app/profile/blibgober.bsky.social)
+- [CV](https://github.com/libgober/cv/blob/main/cv.pdf)

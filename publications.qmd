@@ -1,0 +1,5 @@
+---
+pagetitle: "Research"
+---
+
+{{< include _generated/publications.qmd >}}

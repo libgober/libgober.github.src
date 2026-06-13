@@ -1,0 +1,26 @@
+---
+title: "Collaborators"
+toc: false
+---
+
+- [Sahar Abi-Hassan](https://mills.northeastern.edu/people/sahar-abi-hassan/)
+- [Valentin Bolotnyy](https://www.valentinbolotnyy.com/)
+- [Janet Box-Steffensmeier](https://polisci.osu.edu/people/box-steffensmeier.1)
+- [Daniel Carpenter](https://dcarpenter.scholar.harvard.edu/)
+- [Benjamin M. Chen](https://www.law.hku.hk/academic_staff/benjamin-m-chen/)
+- [Dino Christenson](https://dinopc.org/)
+- [Tirthankar Dasgupta](https://dumptydg.wixsite.com/mysite)
+- [Benjamin C.K. Egerod](https://sites.google.com/view/bcegerod/navigation)
+- [Mayya Komisarchik](https://www.mayyakomisarchik.com/)
+- [Aaron Kaufman](https://aaronrkaufman.com/)
+- [Chris Kenny](https://christophertkenny.com/)
+- [Devin Judge-Lord](https://judgelord.github.io/)
+- [Connor Jerzak](https://connorjerzak.com/)
+- [Chris Li](https://www.christopherli.net/)
+- [Nicole E. Pashley](https://sites.google.com/view/npashley/)
+- [Steven Rashin](https://wp.nyu.edu/srashin/)
+- [Mark Richardson](https://www.mrichardson.info/)
+- [Arun Ravichandran](https://www.linkedin.com/in/arunravi/)
+- [Sebastian Thieme](https://sebastian-thieme.com/)
+- [Jacob Waggoner](https://www.gov.harvard.edu/directory/jacob-waggoner/)
+- [Susan Webb Yackee](https://lafollette.wisc.edu/people/yackee-susan-webb/)

@@ -1,0 +1,15 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+__pycache__/
+.quarto/
+_site/
+.venv/
+_generated/
+README.html
+README_files/
+**/*.quarto_ipynb
+
+/.quarto/

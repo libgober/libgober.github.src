@@ -1,0 +1,44 @@
+project:
+  type: website
+  pre-render:
+    - python3 scripts/build_site_data.py
+
+bibliography: "cv-data/publications.bib"
+
+website:
+  title: "Brian Libgober"
+  site-url: https://brianlibgober.com
+  description: "Political scientist and recovering lawyer"
+  page-navigation: true
+  back-to-top-navigation: true
+  search: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: publications.qmd
+        text: Research
+      - href: teaching.qmd
+        text: Teaching
+      - href: contact.qmd
+        text: Contact
+      - href: collaborators.qmd
+        text: Collaborators
+    right:
+      - href: https://github.com/libgober/cv/blob/main/cv.pdf
+        text: CV
+  page-footer:
+    left: "Brian Libgober"
+    right: "Built with Quarto from shared CV data."
+
+format:
+  html:
+    theme:
+      - darkly
+      - brand
+    css: styles.css
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    toc: true

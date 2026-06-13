@@ -1,0 +1,81 @@
+---
+title: "Brian Libgober"
+toc: false
+page-layout: full
+---
+
+```{=html}
+<style>
+#title-block-header.quarto-title-block {
+  display: none;
+}
+
+body:has(.home-shell) #quarto-content,
+body:has(.home-shell) main.content {
+  display: block;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body:has(.home-shell) .page-columns,
+body:has(.home-shell) .page-full,
+body:has(.home-shell) .column-page {
+  display: block;
+  grid-column: auto;
+  width: 100%;
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  overflow-x: hidden;
+}
+</style>
+
+<div class="home-shell">
+  <aside class="home-sidebar" aria-label="Profile">
+    <div class="home-sidebar-content">
+      <img class="home-profile-photo" src="images/profile_bdl.jpg" alt="Profile picture of Brian Libgober">
+      <h1>Brian Libgober</h1>
+
+      <div class="home-profile-description">
+        <p>Political scientist and recovering lawyer</p>
+
+        <p>
+          Assistant Professor at Northwestern University<br>
+          Faculty Fellow, Institute for Policy Research<br>
+          Senior Research Scholar at Yale Law School
+        </p>
+
+        <p class="home-profile-keywords">Executive Agencies | Interest Groups | Quantitative Methods</p>
+
+        <p class="home-cv-link"><a href="https://github.com/libgober/cv/blob/main/cv.pdf">Curriculum Vitae</a></p>
+      </div>
+
+      <nav class="home-social-links" aria-label="Profile links">
+        <a href="https://scholar.google.com/citations?user=gR0rYp8AAAAJ&inst=13592255891762573016" aria-label="Google Scholar"><i class="ai ai-google-scholar-square"></i></a>
+        <a href="https://github.com/libgober" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://bsky.app/profile/blibgober.bsky.social" aria-label="Bluesky"><i class="fa-brands fa-bluesky"></i></a>
+        <a href="mailto:brian.libgober@northwestern.edu" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </nav>
+    </div>
+
+    <footer class="home-sidebar-footer">© Brian Libgober 2026</footer>
+  </aside>
+
+  <main class="home-main">
+    <div class="home-main-content">
+      <p>Hi, I'm Brian. This is my website. Welcome.</p>
+
+      <p>You can find links to my published articles on the research page. Links to my CV, Google Scholar, GitHub, Bluesky, and contact information are to the left, below my mugshot.</p>
+
+      <p>As you'll see, my work covers a number of different areas in U.S. political economy. The major focus is regulation-making by executive agencies and attempts by stakeholders to influence this part of the policy process through lobbying. Mostly, this work addresses financial regulatory policy, focusing on the Federal Reserve in particular.</p>
+
+      <p>Another area that I do a fair bit of work on is related to access to civil justice, and I'm also getting increasingly interested in the political behavior of trade associations.</p>
+
+      <p>If you've got questions, feel free to reach out.</p>
+    </div>
+  </main>
+</div>
+```

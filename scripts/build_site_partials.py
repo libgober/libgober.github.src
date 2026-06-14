@@ -165,13 +165,17 @@ def render_publication_entry(item: dict[str, Any], compact: bool = False) -> str
     bibtex = item.get("bibtex")
     notes = item.get("notes") or item.get("cv_note")
     links = publication_links(item)
+    pdf_url = publication_pdf_url(item)
+    title_html = esc(title)
+    if pdf_url:
+        title_html = f'<a href="{esc(pdf_url)}">{title_html}</a>'
 
     pieces = [
         f'<article class="{classes}" id="pub-{key}">',
         f'  <div class="pub-year">{esc(year)}</div>',
         '  <div class="pub-body">',
         '    <p class="pub-heading">',
-        f'      <span class="pub-title">{esc(title)}</span>',
+        f'      <span class="pub-title">{title_html}</span>',
     ]
     if authors:
         pieces.append(f'      <span class="pub-authors">{esc(authors)}</span>')
@@ -236,6 +240,16 @@ def publication_links(item: dict[str, Any]) -> str:
         links.append(resource_link(url, label))
         seen.add(url)
     return "\n".join(links)
+
+
+def publication_pdf_url(item: dict[str, Any]) -> str | None:
+    url = item.get("pdf")
+    if not url:
+        return None
+    url = str(url)
+    if not url.startswith(("http://", "https://", "/")):
+        url = f"/{url}"
+    return url
 
 
 def is_doi_url(url: str) -> bool:

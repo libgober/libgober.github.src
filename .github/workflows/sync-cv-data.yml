@@ -1,0 +1,48 @@
+name: Sync CV Data
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [cv-data-updated]
+  schedule:
+    - cron: "17 7 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-cv-data
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout website source
+        uses: actions/checkout@v4
+
+      - name: Checkout CV data
+        uses: actions/checkout@v4
+        with:
+          repository: libgober/cv-data
+          ref: main
+          path: cv-data-source
+
+      - name: Stage CV data
+        run: |
+          mkdir -p cv-data
+          cp cv-data-source/cv.yaml cv-data/cv.yaml
+          cp cv-data-source/publications.bib cv-data/publications.bib
+
+      - name: Commit CV data updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add cv-data/cv.yaml cv-data/publications.bib
+          if git diff --cached --quiet; then
+            echo "CV data is already current."
+          else
+            git commit -m "Sync CV data"
+            git push
+          fi

@@ -112,6 +112,14 @@ def read_bibtex(path: Path) -> dict[str, dict[str, Any]]:
     parser.ignore_nonstandard_types = False
     parser.homogenize_fields = False
     database = bibtexparser.loads(path.read_text(encoding="utf-8"), parser=parser)
+    malformed_entries = [comment.strip() for comment in database.comments if comment.lstrip().startswith("@")]
+    if malformed_entries:
+        labels = []
+        for entry_text in malformed_entries:
+            match = re.match(r"@\w+\s*\{\s*([^,\s]+)", entry_text)
+            labels.append(match.group(1) if match else entry_text.splitlines()[0])
+        raise ValueError(f"Malformed BibTeX entr{'y' if len(labels) == 1 else 'ies'}: {', '.join(labels)}")
+
     entries: dict[str, dict[str, Any]] = {}
     for entry in database.entries:
         key = entry.get("ID")

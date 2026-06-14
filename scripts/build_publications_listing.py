@@ -164,7 +164,7 @@ def build_items(
                     raise ValueError(f"Publication key not found in BibTeX: {key}")
                 item = bib_item(section, position, record, bib_entries[key], papers_dir)
             else:
-                item = manual_item(section, position, record)
+                item = manual_item(section, position, record, papers_dir)
 
             if item.get("show_on_website") is not False:
                 items.append(drop_none(item))
@@ -216,7 +216,7 @@ def bib_item(section: str, position: int, record: dict[str, Any], bib: dict[str,
     return item
 
 
-def manual_item(section: str, position: int, record: dict[str, Any]) -> dict[str, Any]:
+def manual_item(section: str, position: int, record: dict[str, Any], papers_dir: Path) -> dict[str, Any]:
     title = record.get("title")
     authors = join_people(["Brian Libgober", *[str(name) for name in record.get("coauthors") or []]])
     item = base_item(section, position, record)
@@ -232,6 +232,7 @@ def manual_item(section: str, position: int, record: dict[str, Any]) -> dict[str
             "citation": manual_display_text(authors, record.get("year"), title, record.get("venue_override"), record.get("status")),
         }
     )
+    add_pdf_link(item, str(item["key"]), record, papers_dir)
     return item
 
 
